@@ -1,17 +1,15 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Egg6 {
 
-    private final Needle7 needle;
+    private final Deth8 death;
 
-    public Egg6(Needle7 needle) {
-        this.needle = needle;
+    public Egg6(Deth8 death) {
+        this.death = death;
     }
 
     @Override
     public String toString() {
-        return "яйцо , в яйце " + needle.toString();
+        return "в яйце игла, " + death.toString();
     }
 }

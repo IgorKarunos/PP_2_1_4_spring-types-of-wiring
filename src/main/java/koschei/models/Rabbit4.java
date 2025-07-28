@@ -1,20 +1,15 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Rabbit4 {
 
-    private final Duck5 duck;
+    private final Needle7 needle;
 
-    @Autowired
-    public Rabbit4(Duck5 duck) {
-        this.duck = duck;
+    public Rabbit4(Needle7 needle) {
+        this.needle = needle;
     }
 
     @Override
     public String toString() {
-        return "заяц , в зайце " + duck.toString();
+        return "заяц, в зайце " + needle.toString();
     }
 }
